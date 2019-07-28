@@ -1,0 +1,83 @@
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+    
+    grid-template-rows: 50% 50%;
+    background-color:#061136;
+    height: 150px;
+    width: maximum;
+    
+  }
+
+  .one {
+      
+      grid-column: 1/2;
+      grid-row:1/3;
+      z-index: 0;
+      background-color: #061136;
+      color: white;
+
+  }
+
+  .two {
+      
+      grid-column: 100%;
+      grid-row: 1/2;
+      background-color: #061136;
+      font-size: 48px;
+      padding-top: 20px;
+      color: white;
+  }
+
+  .three {
+      
+      grid-column: 2/3;
+      grid-row: 2/3;
+      background-color: #061136;
+      font-size: 24px;
+      color: #4A5E9B;
+  }
+
+  #logo {
+      height: 90px;
+      width: 115px;
+  }
+  .four {
+      grid-column: 3/4;
+      grid-row: 1/2;
+      font-size: 24px;
+      background-color: #061136;
+      padding-left: 350px;
+      padding-top: 40px;
+      color: orange;
+  }
+  .five {
+      grid-column: 3/4;
+      grid-row: 2/3;
+      font-size: 24px;
+      background-color: #061136;
+      padding-left: 130px;
+      padding-top: 20px;
+      padding-right: 10px;
+  }
+  #navlink{
+      padding: 5px;
+  }
+  #insta{
+      
+      height:50px;
+      width:50px;
+  }
+
+  .outsidegrid{
+      margin:20px;
+      padding-top: 50px;
+  }
+
+  .slideshowcontainer {
+      display: flex;
+      animation: slidein 3s ease-in 1s infinite reverse both running;
+
+  }
